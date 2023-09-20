@@ -1035,7 +1035,7 @@
 #if ENABLED(ASSISTED_TRAMMING)
 
   // Define positions for probe points.
-  #define TRAMMING_POINT_XY { { 255, 45 }, { 45, 45 }, { 255, 45 }, { 255, 255 } }  // PYRE
+  #define TRAMMING_POINT_XY { { 255, 45 }, { 45, 45 }, { 45, 255 }, { 255, 255 } }  // PYRE
 
   // Define position names for probe points.
   #define TRAMMING_POINT_NAME_1 "Front-Right"  // PYRE
