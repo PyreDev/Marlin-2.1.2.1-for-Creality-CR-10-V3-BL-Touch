@@ -1585,7 +1585,7 @@
 #define Z_CLEARANCE_DEPLOY_PROBE   10 // Z Clearance for Deploy/Stow
 #define Z_CLEARANCE_BETWEEN_PROBES  3 // Stock: 5 - Z Clearance between probe points
 #define Z_CLEARANCE_MULTI_PROBE     3 // Stock: 5 - Z Clearance between multiple probes
-#define Z_AFTER_PROBING           100 // Z position after probing is done
+//#define Z_AFTER_PROBING           100 // Z position after probing is done // PYRE
 
 #define Z_PROBE_LOW_POINT          -1 // Farthest distance below the trigger-point to go before stopping
 
@@ -2134,7 +2134,7 @@
 #endif
 
 // Homing speeds (linear=mm/min, rotational=°/min)
-#define HOMING_FEEDRATE_MM_M { (80*60), (80*60), (10*60) }
+#define HOMING_FEEDRATE_MM_M { (60*60), (60*60), (10*60) }  // PYRE
 
 // Validate that endstops are triggered on homing moves
 #define VALIDATE_HOMING_ENDSTOPS
